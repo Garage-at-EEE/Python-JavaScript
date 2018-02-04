@@ -1,6 +1,8 @@
-https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7
-https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ
-https://telepot.readthedocs.io/en/latest/
-https://telegram.org/blog/bot-revolution
-https://www.pygame.org/docs/
-https://stackoverflow.com/
+1. Corey Schafer - Python Programming Tutorial	https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7
+2. Corey Schafer - Git Tutorial	https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx
+3. sentdex - Advance Python Programming Tutorial	https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ
+4. git download	https://git-scm.com/
+5. Telepot documentation	https://telepot.readthedocs.io/en/latest/
+6. Telegram bot introduction	https://telegram.org/blog/bot-revolution
+7. Pygame documentation 	https://www.pygame.org/docs/
+8. stackoverflow	https://stackoverflow.com/
