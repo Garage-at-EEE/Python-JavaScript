@@ -18,5 +18,9 @@ def viewUrl():
 		print()
 
 viewUrl()
-print("which file to open? use index number")
-openUrl(int(input()))
+while 1:
+	print("which file to open? Use index number. 0 to quit.")
+	choice = int(input())
+	if choice == 0:
+		break
+	openUrl(choice)

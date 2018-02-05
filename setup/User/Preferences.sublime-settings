@@ -1,0 +1,15 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Piatto Dark (SL).tmTheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 2,
+	"margin": 0,
+	"overlay_scroll_bars": "enabled",
+	"tab_size": 4,
+	"theme": "Piatto Dark.sublime-theme",
+	"translate_tabs_to_spaces": false
+}
