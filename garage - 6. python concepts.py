@@ -87,3 +87,12 @@ from math import *
 # 	any_function_can_run(var1)
 # 	any_function_can_run(var2)
 # 	return (or not)
+
+# function and method
+# def function(x):
+# 	print(1+x)
+# class funcs:
+# 	def function(x):
+# 		print(1+x)
+# function(2)
+# funcs.function(2)
