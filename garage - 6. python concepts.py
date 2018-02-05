@@ -72,6 +72,18 @@ from math import *
 # 	except Exception:
 # 		print("wrong input")
 
+# Duck typing
 
+# in C
 
+# int C_function(int var_1,char var_2 ); //function decleration
+# int C_function(var_1,var_2){
+# 	function_concerning_integer(var1)
+# 	function_concerning_character(var2)
+# 	return integer type
+# }
 
+# def Py_function(var1, var2):
+# 	any_function_can_run(var1)
+# 	any_function_can_run(var2)
+# 	return (or not)
