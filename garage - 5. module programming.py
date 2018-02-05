@@ -1,4 +1,4 @@
-from garageTool import *
+from garageTool import Human
 from garageTool import who
 who('Zayn')
 
