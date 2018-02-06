@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Garage
 For garage software projects
 
