@@ -44,3 +44,16 @@ Automation and Problem Solving through software.
 6. [Telegram bot introduction](https://telegram.org/blog/bot-revolution)
 7. [Pygame documentation ](https://www.pygame.org/docs/)
 8. [stackoverflow](https://stackoverflow.com/)
+
+***
+#Project 2
+
+###Python code analysis => flappy bird
+
+![screenshot of flappy bird](./flappyBirdProject/screenshot1.png)
+
+**Use [flappyBirdExplanation](./flappyBirdProject/flappyBirdExplanation.py) file to read the code and 
+document**
+---
+This project gives credits to **sourabhv** from 
+[https://github.com/sourabhv/FlapPyBird](https://github.com/sourabhv/FlapPyBird)
