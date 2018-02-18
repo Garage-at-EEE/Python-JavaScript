@@ -47,7 +47,7 @@ Automation and Problem Solving through software.
 
 ***
 
-# Project 2
+## Project 2
 
 ### Python code analysis => flappy bird
 
