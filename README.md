@@ -46,9 +46,10 @@ Automation and Problem Solving through software.
 8. [stackoverflow](https://stackoverflow.com/)
 
 ***
-#Project 2
 
-###Python code analysis => flappy bird
+## Project 2
+
+### Python code analysis => flappy bird
 
 ![screenshot of flappy bird](./flappyBirdProject/screenshot1.png)
 
