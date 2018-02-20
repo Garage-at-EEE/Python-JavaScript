@@ -358,17 +358,17 @@ def mainGame(movementInfo):
 def showGameOverScreen(crashInfo):
     """crashes the player down ans shows gameover image"""
     score = crashInfo['score']
-    # playerx = SCREENWIDTH * 0.2
-    # playery = crashInfo['y']
-    # playerHeight = IMAGES['player'][0].get_height()
-    # playerVelY = crashInfo['playerVelY']
-    # playerAccY = 2
-    # playerRot = crashInfo['playerRot']
-    # playerVelRot = 7
+    playerx = SCREENWIDTH * 0.2
+    playery = crashInfo['y']
+    playerHeight = IMAGES['player'][0].get_height()
+    playerVelY = crashInfo['playerVelY']
+    playerAccY = 2
+    playerRot = crashInfo['playerRot']
+    playerVelRot = 7
 
-    # basex = crashInfo['basex']
+    basex = crashInfo['basex']
 
-    # upperPipes, lowerPipes = crashInfo['upperPipes'], crashInfo['lowerPipes']
+    upperPipes, lowerPipes = crashInfo['upperPipes'], crashInfo['lowerPipes']
 
     while True:
         for event in pygame.event.get():
@@ -376,8 +376,7 @@ def showGameOverScreen(crashInfo):
                 pygame.quit()
                 sys.exit()
             if event.type == KEYDOWN and (event.key == K_SPACE or event.key == K_UP):
-                if playery + playerHeight >= BASEY - 1:
-                    return
+                return
 
         # # player y shift
         # if playery + playerHeight < BASEY - 1:
@@ -394,8 +393,7 @@ def showGameOverScreen(crashInfo):
 
         # draw sprites
         SCREEN.blit(IMAGES['background'], (0,0))
-        SCREEN.blit(IMAGES['gameover'], ((SCREENHEIGHT-IMAGES['gameover'].get_height)/2,SCREENWIDTH-IMAGES['gameover'].get_width)/2))
-        print(1)
+        SCREEN.blit(IMAGES['gameover'], (50,200))
         # for uPipe, lPipe in zip(upperPipes, lowerPipes):
         #     SCREEN.blit(IMAGES['pipe'][0], (uPipe['x'], uPipe['y']))
         #     SCREEN.blit(IMAGES['pipe'][1], (lPipe['x'], lPipe['y']))

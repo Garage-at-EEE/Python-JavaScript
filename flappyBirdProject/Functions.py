@@ -44,7 +44,8 @@ def checkCrash(player, upperPipes, lowerPipes):
     player['h'] = IMAGES['player'][0].get_height()
 
     # if player crashes into ground
-    if player['y'] + player['h'] > BASEY: # under the ground
+    if player['y'] + player['h'] > BASEY-1: # under the ground
+        print(1)
         return [True, True]
     else:
         playerRect = pygame.Rect(player['x'], player['y'],

@@ -6,7 +6,7 @@ with open("Reference.txt",'r') as file:
 		listDic[item.split('\t')[0]] = item.split('\t')[1]
 def openUrl(target = 0):
 	for key, value in listDic.items():
-		if target == 0 or target >= len(listDic.keys()):
+		if target == 0 or target > len(listDic.keys()):
 			webbrowser.open(item)
 		elif str(target) == key[0]:
 			webbrowser.open(value)
