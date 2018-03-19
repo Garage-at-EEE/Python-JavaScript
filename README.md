@@ -1,4 +1,4 @@
-<div style= "text-align:center;margin-bottom:20px;"><h2 style= "font-size:50px;padding:bottom:20px;border-bottom:3px coral solid;">Garage@EEE</h2></div>
+<div style= "text-align:center;margin-bottom:20px;"><h1 style= "font-size:50px;padding:bottom:20px;border-bottom:3px coral solid;">Garage@EEE</h1></div>
 
 
 # Project 1 : Basic Python Programming
@@ -69,9 +69,9 @@ Automation and Problem Solving through software.
 
 ## Python code analysis => flappy bird
 
-![screenshot of flappy bird](./Project_Example/Python_Project_Example/flappyBirdProject/screenshot1.png)
+![screenshot of flappy bird](./_Project_Example/Python_Project_Example/flappyBirdProject/screenshot1.png)
 
-**Use [flappyBirdExplanation](./Project_Example/Python_Project_Example/flappyBirdProject/flappyBirdExplanation.py) file to read the code and 
+**Use [flappyBirdExplanation](./_Project_Example/Python_Project_Example/flappyBirdProject/flappyBirdExplanation.py) file to read the code and 
 document**
 
 
