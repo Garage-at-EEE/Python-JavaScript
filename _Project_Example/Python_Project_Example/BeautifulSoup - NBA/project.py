@@ -27,14 +27,12 @@ Urls = [
 
 # team_board=['Celtics', 'Cavaliers', 'Rockets', 'Warriors', 'Bucks', 'Hawks', 'Mavericks', 'Hornets', 'Pistons', 'Nets', 'Pacers', 'Pelicans', 'Grizzlies', 'Heat', 'Magic', 'Blazers', 'Suns', 'Kings', 'Timberwolves', 'Spurs', 'Nuggets', 'Jazz', '76ers', 'Wizards', 'Clippers', 'Lakers', 'Knicks', 'Thunder', 'Bulls', 'Raptors']
 team = 'Boston Celtics'
-file_dir = "c:\\Users\\Zayn Leo\\Desktop\\vm share\\Boston Celtics\\Let's go Celtics!\\"
+
 import time
 import urllib.request
 from bs4 import BeautifulSoup
 from bs4 import SoupStrainer
-	# sauce = urllib.request.urlopen(schedual[int(list((time.localtime()))[1])])# go to specific url for web scrap
 
-# print(schedual[int(list((time.localtime()))[1])])
 count = 1
 local_time = time.asctime(time.localtime())
 UTC_time = time.asctime(time.gmtime())
@@ -48,7 +46,7 @@ def Create(info):
 	for item in soup.findAll('tr')[1:]:
 		information = [data.text for data in item.findAll('td')]
 		if team in '\n'.join(information):
-			if 'Celtics' in information[3]:
+			if team.split(' ')[1] in information[3]:
 				opponent = information[1]
 				place = 'Home'
 			else:
@@ -57,24 +55,14 @@ def Create(info):
 			game_time = item.find('th').text[5:]
 			if game_time[5]==',':
 				game_time = game_time[:4]+'0'+game_time[4:]	
-			with open(f"{file_dir}G{str(count).zfill(2)}-{game_time} {opponent}.txt",'w',newline = '') as file:
 				count+=1
-				file.write(game_time+'\n')
-				file.write(place+'\n')
-				file.write(f'{team} {information[(information.index(team)+1)]} vs {information[(information.index(opponent)+1)]} {opponent}\n')
+				print(game_time+'\n')
+				print(place+'\n')
+				print(f'{team} {information[(information.index(team)+1)]} vs {information[(information.index(opponent)+1)]} {opponent}\n')
+				print('------------------------------------------------------')
 
 for item in Urls:
 	sauce = urllib.request.urlopen(item)
 	info = sauce.read()
 	Create(info)
 	sauce.close()
-	
-
-
-
-# for item in soup.findAll('tr'):
-# 	if strt in str(item.find('th')):
-# 		print(item.find('th').text)
-# 		print('\n'.join([data.text for data in item.findAll('td') if data.text!='']))
-# 		print()
-

@@ -43,3 +43,7 @@ def wiki_title(url):
 	soup = BeautifulSoup(page, "html.parser")
 	x=soup.find('h1',{'id':'firstHeading'}).text
 	return str(x)
+
+if __name__ == '__main__':
+	result = wiki('https://en.wikipedia.org/wiki/Python_(programming_language)')
+	print(result)
