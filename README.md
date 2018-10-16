@@ -86,4 +86,4 @@ This project gives credits to [sourabhv](https://github.com/sourabhv/FlapPyBird)
 ---
 
 
-<div style= "color:#272727;text-align:right; padding: 10px;"><p>--Zayn Jarvis, Garage@EEE</p></div>
+<div style= "color:#272727;text-align:right; padding: 10px;"><p>[Zayn Jarvis](https://github.com/ZaynJarvis), Garage@EEE</p></div>
