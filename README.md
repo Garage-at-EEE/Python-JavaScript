@@ -85,5 +85,5 @@ This project gives credits to [sourabhv](https://github.com/sourabhv/FlapPyBird)
 
 ---
 
-# Credits
+# Team
 [Zayn Jarvis](https://github.com/ZaynJarvis)
